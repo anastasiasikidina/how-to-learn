@@ -16,7 +16,6 @@
   display: flex;
   align-items: center;
   background-color:  #f2f2f2;
-  /* выше установили ограничения для секции */
 }
 
 .header__link {
@@ -239,61 +238,60 @@
   background-size: contain;
 }
 .section-title__theme_dark {
-line-height: 1.15;
-font-size: 60px;
-font-weight: bold;
-width: 60%;
-color: white;
-padding: 0;
-z-index: 2;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  width: 60%;
+  color: white;
+  padding: 0;
+  z-index: 2;
 }
 
 .section-subtitle__theme_dark {
-line-height: 34px;
-font-size: 24px;
-font-weight: normal;
-width: 60%;
-color: white;
-padding: 0;
-z-index: 2;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+  color: white;
+  padding: 0;
+  z-index: 2;
 }
 
 .table__theme_dark {
-left: -210px;
-flex-wrap: wrap;
-z-index: 2;
-margin: 0 auto 90px;
+  left: -210px;
+  flex-wrap: wrap;
+  z-index: 2;
+  margin: 0 auto 90px;
 }
 
 .table__cell_theme_dark {
-width: 200px;
-margin-top: 80px;
-margin-bottom: 0;
-z-index: 2;
+  width: 200px;
+  margin-top: 80px;
+  margin-bottom: 0;
+  z-index: 2;
 }
 
 .table__heading_theme_dark {
-line-height: 1.15;
-font-size: 24px;
-font-weight: bold;
-margin-bottom: 20px;
-margin-top: 0;
-padding:0;
-color: white;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding:0;
+  color: white;
 }
 
 .table__text_theme_dark {
-line-height: 1.2;
-font-size: 18px;
-font-weight: normal;
-padding: 0;
-margin: 0;
-color: white;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  color: white;
 }
 
 .footer {
   min-height: 350px;
- /* box-sizing: border-box;*/
   padding: 60px 0 40px 0;
   display: flex;
   justify-content: center;
@@ -317,15 +315,6 @@ color: white;
   flex-direction: column;
   justify-content: space-between;
  
-}
-
-.footer__column_info {
-  /*display: flex;*/
-
-}
-
-.footer__column_content_social {
-
 }
 
 .footer__column-links {
