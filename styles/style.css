@@ -15,11 +15,13 @@
   max-height: 756px;
   display: flex;
   align-items: center;
+  position: relative;
   background-color:  #f2f2f2;
+  overflow: hidden;
 }
 
 .header__link {
-  color: #044cad;
+  color: #2f80ed;
   text-decoration: none;
 }
 
@@ -38,8 +40,7 @@
   width: 730px;
   margin-left: 64px;
   line-height: 96px;
-  align-items: center;
-  position: absolute;
+  align-self: center;
   font-size: 102px;
   font-weight: bold;
   z-index: 2;
@@ -67,7 +68,7 @@
   background-color:  #2f80ed;
 }
 
-.header__main_illustration {
+.header__main-illustration {
   position: absolute;
   width: 765px;
   height: 608px;
@@ -108,8 +109,12 @@
   line-height: 34px;
   font-size: 24px;
   font-style: normal;
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
   padding: 0;
+}
+
+.two-columns__paragraph:last-child {
+  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -150,7 +155,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 auto 100px;
+  margin: 0 auto;
   width: 1100px;
 }
 
@@ -164,19 +169,22 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  padding-bottom: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 20px 0;
+  padding: 0;
 }
 
 
 .feynman {
   position: relative;
-  height: 790px;
+  min-height: 790px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,7 +218,8 @@
   color: #2f80ed;
   position: absolute;
   top: 50%;
-  right: 40px;
+  right: 48px;
+  text-decoration: none;
 }
 
 .kaufman {
@@ -236,7 +245,7 @@
   height: 877px;
   background-size: contain;
 }
-.section-title__theme_dark {
+.section-title_theme_dark {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -246,7 +255,7 @@
   z-index: 2;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -260,7 +269,7 @@
   left: -210px;
   flex-wrap: wrap;
   z-index: 2;
-  margin: 0 auto 90px;
+  margin: 0 auto;
 }
 
 .table__cell_theme_dark {
@@ -268,6 +277,7 @@
   margin-top: 80px;
   margin-bottom: 0;
   z-index: 2;
+  list-style: none;
 }
 
 .table__heading_theme_dark {
@@ -295,6 +305,7 @@
   display: flex;
   justify-content: center;
   background-color: #1f1f1f;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -321,6 +332,7 @@
   flex-direction: column;
   margin: 20px 0 16px 0;
   padding: 0;
+  list-style: none;
 }
 
 .logo_place_footer {
