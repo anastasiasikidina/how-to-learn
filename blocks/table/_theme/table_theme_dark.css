@@ -1,0 +1,6 @@
+.table_theme_dark {
+  left: -210px;
+  flex-wrap: wrap;
+  z-index: 2;
+  margin: 0 auto;
+}
