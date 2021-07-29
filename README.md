@@ -8,4 +8,4 @@
 * CSS
 * Flex
 
-* [Ссылка на проект]()
+* [Ссылка на проект](https://anastasiasikidina.github.io/how-to-learn/)
