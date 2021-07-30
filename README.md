@@ -7,5 +7,3 @@
 * HTML
 * CSS
 * Flex
-
-* [Ссылка на проект](https://anastasiasikidina.github.io/how-to-learn/)
