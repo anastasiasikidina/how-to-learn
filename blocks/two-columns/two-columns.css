@@ -1,9 +1,0 @@
-.two-columns {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-  }
-
-  .two-columns__paragraph:last-child {
-    margin: 0;
-  }
